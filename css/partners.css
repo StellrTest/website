@@ -1,0 +1,25 @@
+.partners-section {
+    background-color: #E80566;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.swiper-wrapper{
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+    transition-timing-function: linear
+    
+}
+.swiper-slide img{
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+}
+
+@media (max-width: 768px){
+    .partners-section {
+        height: 250px;
+    }
+}
