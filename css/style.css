@@ -235,7 +235,7 @@ strong, b {
 }
 
 a {
-    color: #0000ff;
+    color: #000000;
 }
 
 a:hover {
@@ -685,7 +685,7 @@ select.form-control.has-value{
     padding: 20px 12px;
     display: block;
     transition: all 0.3s ease-in-out 0s;
-    color: #353535;
+    color: #79c7ff;
     opacity: 0.8;
 }
 .white-bg> .menu li a{
@@ -2471,7 +2471,7 @@ a.detail-link:hover span{
     height: 25px;
     border-radius: 50%;
     border: 8px solid #79c7ff;
-    box-shadow: 0 0 0 4px #0000ff;
+    box-shadow: 0 0 0 4px #000000;
     margin: auto 0;
     position: absolute;
     bottom: 60px;
@@ -2481,7 +2481,7 @@ a.detail-link:hover span{
     content: "";
     height: 157px;
     width: 11px;
-    background: #0000ff;
+    background: #000000;
     display: inline-grid;
     transform: rotate(31deg);
     position: relative;
@@ -2494,7 +2494,7 @@ a.detail-link:hover span{
     height: 25px;
     border-radius: 50%;
     border: 8px solid #79c7ff;
-    box-shadow: 0 0 0 4px #0000ff;
+    box-shadow: 0 0 0 4px #000000;
     margin: auto 0;
     position: absolute;
     bottom: 60px;
@@ -2504,7 +2504,7 @@ a.detail-link:hover span{
     content: "";
     height: 175px;
     width: 11px;
-    background: #0000ff;
+    background: #000000;
     display: inline-grid;
     transform: rotate(-31deg);
     position: relative;
@@ -2521,7 +2521,7 @@ a.detail-link:hover span{
 .process-step-number h2{
     font-size: 40px;
     font-weight: 700;
-    color: #0000ff;
+    color: #ffffff;
 }
 .process-step-number:after{
     content: "";
