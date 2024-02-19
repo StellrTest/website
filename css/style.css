@@ -1828,6 +1828,13 @@ select.form-control.has-value{
     right: auto;
 }
 
+.row {
+    display: flex;
+    justify-content: center; /* Centers the cards within each row */
+    flex-wrap: wrap; /* Allows cards to wrap within the row */
+    margin: 0 -15px; /* Adjusts spacing between cards if needed */
+  }
+
 @media (max-width: 767px) {
     .switchable .imageblock-section-img[class*='col-'] {
         float: none !important;
@@ -1848,6 +1855,7 @@ select.form-control.has-value{
 @media (min-width: 768px) {
     .switchable .container > .row {
         flex-flow: row-reverse;
+        
     }
 
     .switchable.switchable-content .container > .row {
