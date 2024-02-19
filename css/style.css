@@ -1828,7 +1828,7 @@ select.form-control.has-value{
     right: auto;
 }
 
-.row {
+.team-row {
     display: flex;
     justify-content: center; /* Centers the cards within each row */
     flex-wrap: wrap; /* Allows cards to wrap within the row */
