@@ -19,6 +19,9 @@
     .ptb-150{
         padding: 90px 0;
     }
+    .hero-slider-content{
+        padding-block: 30px;
+    }
     .hero-slider-content h1{
         font-size: 2.25rem;
     }

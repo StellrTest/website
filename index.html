@@ -51,6 +51,8 @@
     <link rel="stylesheet" href="css/partners.css">
     <!--swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <!-- mobile-navbar -->
+    <link rel="stylesheet" href="css/mobile-navbar.css">
 
 
 </head>
@@ -74,20 +76,36 @@
     <nav class="navbar navbar-expand-lg custom-nav-3 fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="img/logo-color.png" alt="logo" class="img-fluid"/>
+                <!-- <img src="img/logo.png" alt="logo" class="img-fluid"/> -->
+                <img src="img/logo.svg" alt="logo"/>
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="ti-menu"></span>
-            </button>
-            <div class="collapse navbar-collapse h-auto" id="navbarSupportedContent">
+            </button> -->
+            <!-- <div class="collapse navbar-collapse h-auto" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto menu">
-                    <li><a href="#"> Home</a></li>
+                    <li><a href="/"> Home</a></li>
                     <li><a href="#about-us">About Us</a></li>
-                    <li><a href="#">Our Expertise</a></li>
-                    <li><a href="#outstanding-section">Work Process</a></li>
-                    <li><a href="project.html">Our Team</a></li>
-                    <li><a href="#" class="btn secondary-solid-btn check-btn">Contact Us</a></li>
+                    <li><a href="#expertise">Our Expertise</a></li>
+                    <li><a href="#work-process">Work Process</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#cta" class="btn secondary-solid-btn check-btn">Contact Us</a></li>
+                </ul>
+            </div> -->
+            <button class="hamburger-menu">
+                <span class="hamburger-menu-line-1"></span>
+                <span class="hamburger-menu-line-2"></span>
+                <span class="hamburger-menu-line-3"></span>
+            </button>
+            <div class="navbar-menu">
+                <ul class="navbar-menu-nav ml-auto menu">
+                    <li><a href="/"> Home</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#expertise">Our Expertise</a></li>
+                    <li><a href="#work-process">Work Process</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#cta" class="btn secondary-solid-btn check-btn">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -100,23 +118,30 @@
 
     <!--hero section start-->
     <section class="hero-equal-height ptb-70">
-        <div class="hero-shape hero-shape-none-sm" style="background: url('img/hero-bg-4.png')no-repeat top right"></div>
+        <!-- <div class="hero-shape hero-shape-none-sm" style="background: url('img/hero-bg-4.png')no-repeat top right"></div> -->
+
+        
+
         <!-- <img src="img/cta-2-path-shape.png" alt="group shape" class="img-fluid group-shape-1">
         <img src="img/cta-2-circle-shape.png" alt="group shape" class="img-fluid group-shape-2">
         <img src="img/cta-2-tringle-shape.png" alt="group shape" class="img-fluid group-shape-3">
         <img src="img/cta-2-tringle-shape.png" alt="group shape" class="img-fluid group-shape-4"> -->
+
         <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-lg-6">
-                    <div class="hero-slider-content pt-5">
+            <div class="row align-items-center">
+                <div class="col">
+                    <div class="hero-slider-content">
                         <strong class="color-secondary">Stellr Media</strong>
                         <h1>Elevate Your Gym with Expert Lead Generation in Toronto & the GTA.</h1>
                         <p class="lead">Unlock the full potential of your fitness business with targeted Facebook ads designed to bring you more members, more engagement, and more growth. Welcome to the new era of gym marketing.</p>
 
                         <div class="action-btns mt-3">
-                            <a href="#" class="btn secondary-solid-btn">Book a call</a>
+                            <a href="#cta" class="btn secondary-solid-btn">Book a call</a>
                         </div>
                     </div>
+                </div>
+                <div class="col d-flex justify-content-center align-items-center hero-img">
+                    <img src="./img/hero-bg-4.png" alt="hero image" class="w-100 h-100 rounded shadow-sm">
                 </div>
             </div>
         </div>
@@ -221,7 +246,7 @@
     <!--call to action progressbar end-->
 
     <!--about us section start-->
-    <section class="about-us-section ptb-100 gray-light-bg">
+    <section class="about-us-section ptb-100 gray-light-bg" id="about-us">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-12 col-lg-6">
@@ -266,7 +291,7 @@
                             </div>
                         </div> -->
                         <div class="action-btns mt-4">
-                            <a href="#" class="btn secondary-solid-btn mr-3">Start Now</a>
+                            <a href="#cta" class="btn secondary-solid-btn mr-3">Start Now</a>
                         </div>
                     </div>
                 </div>
@@ -318,7 +343,7 @@
     <!--partners section end -->
 
     <!--outstanding section start-->
-    <section class="outstanding-section ptb-100 gray-light-bg">
+    <section class="outstanding-section ptb-100 gray-light-bg" id="expertise">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
@@ -389,7 +414,7 @@
                                                 </li>
                                             </ul>
 
-                                            <a href="#" class="mt-4 btn secondary-solid-btn">Start Now</a>
+                                            <a href="#cta" class="mt-4 btn secondary-solid-btn">Start Now</a>
                                         </div>
                                     </div>
                                     <div class="col-md-12 col-lg-6">
@@ -451,7 +476,7 @@
                                             <h3>Unlock Potential: Facebook Ads That Drive Results</h3>
                                             <p>"Introducing our '90-Day Lead Supercharger'—a turbocharged solution designed to propel your gym's growth into overdrive. We're not just running Facebook ads; we're sculpting a powerful digital presence that attracts, engages, and converts leads within a dynamic 90-day sprint. Imagine a personalized, precision-engineered marketing strategy that not only generates leads at lightning speed but also maximizes your gym's visibility in the Toronto and GTA fitness scene. Let us be the driving force behind your success, transforming casual clicks into committed members in just 90 days. Fasten your seatbelts; it's time for your gym to accelerate to new heights!"</p>
                                             <div class="action-btns mt-4">
-                                                <a href="#" class="btn secondary-solid-btn mr-3">Start Now</a>
+                                                <a href="#cta" class="btn secondary-solid-btn mr-3">Start Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -464,7 +489,7 @@
                                             <h3>Connect, Engage, and Grow Your Audience with Our Tailored Social Media Strategies.</h3>
                                             <p>In the dynamic world of social media, our team helps you harness the power of platforms like Facebook, Instagram, LinkedIn, and more. We specialize in creating compelling content, managing community engagement, and running targeted ad campaigns to amplify your brand's voice and reach.</p>
                                             <div class="action-btns mt-4">
-                                                <a href="#" class="btn secondary-solid-btn mr-3">Start Now</a>
+                                                <a href="#cta" class="btn secondary-solid-btn mr-3">Start Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -530,7 +555,7 @@
     <!--outstanding section end-->
 
     <!--work process section start-->
-    <section class="work-process-section ptb-100">
+    <section class="work-process-section ptb-100"id="work-process">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-9">
@@ -655,14 +680,15 @@
                             <div class="col-md-7">
                                 <h5>Optimize</h5>
                                 <p>Continuously refining tactics for maximum impact and ROI.</p>
+                                
                             </div>
                         </div>
-                        <div class="process-line-l"></div>
+                        <div class="process-line-l-last"></div>
                     </div>
                 </div>
                 <div class="col-md-2 custom-none"></div>
                 <div class="col-md-5 col-lg-5 custom-none">
-                    <div class="process-point-right process-last"></div>
+                    <div class="process-point-right-last process-last"></div>
                 </div>
             </div>
             <!-- ============ -->
@@ -1078,7 +1104,7 @@
 
 
     <!--team two section start-->
-    <section class="team-two-section ptb-100 gray-light-bg">
+    <section class="team-two-section ptb-100 gray-light-bg" id="team">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-8">
@@ -1177,7 +1203,7 @@
     <!--team two section end-->
 
     <!--call to action section start-->
-    <section class="call-to-action py-5">
+    <section class="call-to-action py-5" id="cta">
         <div class="container">
             <div class="row justify-content-around align-items-center">
                 <div class="col-md-7">
@@ -1237,7 +1263,8 @@
 <!--swiper  -->
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script src="js/swiper.js"></script>
-
+<!-- mobile-navbar -->
+<script src="js/mobile-navbar.js"></script>
 
 </body>
 </html>
